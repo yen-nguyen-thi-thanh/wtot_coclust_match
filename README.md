@@ -1,4 +1,5 @@
-Welcome! This repository contains `python` and `R` codes to run the algorithms WTOT-matching and WTOT-coclust, as presented in the paper *Optimal transport-based machine learning to match specific expression patterns in omics data* by T. T. Y. Nguyen, A. Chambaz, O. Bouaziz, W. Harchaoui and C. Neri (2021). The paper can be found [here](https://hal.archives-ouvertes.fr/hal-03293786/). 
+Welcome! This repository contains `python` and `R` codes to run the algorithms WTOT-matching and WTOT-coclust, as presented in the paper *Optimal transport-based machine learning to match specific expression patterns in omics data* by T. T. Y. Nguyen, W. Harchaoui, L. Mégret, C. Mendoza, O. Bouaziz, C. Neri, A. Chambaz (2021). The paper can be found [here](https://hal.archives-ouvertes.fr/hal-03293786/). 
+
 
 The aim of WTOT-matching and WTOT-coclust is to learn a pattern of correspondence between two datasets in situations where it is desirable to match elements that exhibit an affine relationship (our approach accommodates *any* relationship, not necessarily affine, as long as it can be parametrized). In the motivating case-study, the challenge is to better understand micro-RNA regulation in Huntington's disease model mice. 
 
