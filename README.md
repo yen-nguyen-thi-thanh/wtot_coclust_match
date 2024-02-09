@@ -1,3 +1,6 @@
+This work is licensed under a [Creative
+Commons Attribution-NonCommercial-NoDerivs 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 Welcome! This repository contains `python` and `R` codes to run the algorithms WTOT-matching and WTOT-coclust, as presented in the paper *Optimal transport-based machine learning to match specific patterns: application to the detection of molecular regulation patterns in omics data* by T. T. Y. Nguyen, W. Harchaoui, L. Mégret, C. Mendoza, O. Bouaziz, C. Neri, A. Chambaz (2021). The paper can be found [here](https://hal.archives-ouvertes.fr/hal-03293786/). 
 
 
