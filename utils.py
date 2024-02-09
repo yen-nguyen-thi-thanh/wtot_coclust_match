@@ -1,3 +1,7 @@
+## This work is licensed under a Creative
+## Commons Attribution-NonCommercial-NoDerivs 4.0 International
+## (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+
 # The functions "sinkhorn" , "sinkhorn1", "sinkhorn2" and "_squared_distances"
 # build upon Aude Genevay's implementation of a Sinkhorn-GAN 
 # (https://github.com/audeg/Sinkhorn-GAN/blob/master/sinkhorn.py).
