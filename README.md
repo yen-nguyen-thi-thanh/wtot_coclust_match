@@ -1,5 +1,8 @@
-Welcome! This repository contains `python` and `R` codes to run the algorithms WTOT-matching and WTOT-coclust, as presented in the paper *Optimal transport-based machine learning to match specific patterns: application to the detection of molecular regulation patterns in omics data* by T. T. Y. Nguyen, W. Harchaoui, L. Mégret, C. Mendoza, O. Bouaziz, C. Neri, A. Chambaz (2024). The paper can be found [here](https://hal.archives-ouvertes.fr/hal-03293786/). 
-
+#####========================#####
+#####        WTOT-matching v1.0 #####
+#####        WTOT-coclust v1.0       #####
+#####======================#####
+# Application: This repository contains python and R codes to run the algorithms WTOT-matching and WTOT-coclust, as presented in the paper Optimal transport-based machine learning to match specific patterns: application to the detection of molecular regulation patterns in omics data by T. T. Y. Nguyen, W. Harchaoui, L. Mégret, C. Mendoza, O. Bouaziz, C. Neri, A. Chambaz (2024). The paper can be found here.
 The aim of WTOT-matching and WTOT-coclust is to learn a pattern of correspondence between two datasets in situations where it is desirable to match elements that exhibit an affine relationship (our approach accommodates any relationship, not necessarily affine, as long as it can be parametrized). In the motivating case-study, the challenge is to better understand micro-RNA regulation in Huntington's disease model mice.
 The algorithms unfold in two stages. During the first stage, an optimal transport plan P and an optimal affine transformation are learned, using the Sinkhorn algorithm and a mini-batch gradient descent. During the second stage, P is exploited to derive either several co-clusters (WTOT-coclust) or several sets of matched elements (WTOT-matching).
 
@@ -12,6 +15,9 @@ The main files of the repository are:
 
 The folder `simulations` contains the codes used to generate data for the experimantal study presented in the paper. The folder `datasets` contains the miRNA and mRNA data obtained in the striatum and cortex of the HD model mice; and the results obtained by running the WTOT-matching and WTOT-coclust. The file `sample_A4.npz` is a synthetic dataset generated in configuration A4 of the simulation study (see Section 5 of the paper). 
 
+#
+# Version: WTOT-matching v1.0 ; WTOT-coclust v1.0
+# Date: 15 April 2020
 #
 # Contributors (alphabetic order): O. Bouaziz (1), A. Chambaz (1), W. Harchaoui (1), L. Mégret (2), C. Mendoza (2), C. Neri (2), T. T. Y. Nguyen (1) #
 # Laboratory:
@@ -36,6 +42,7 @@ The folder `simulations` contains the codes used to generate data for the experi
 #      
 #####======================#####
 #####=====================#####
+
 
 
 
