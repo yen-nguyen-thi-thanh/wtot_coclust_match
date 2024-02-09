@@ -11,8 +11,7 @@
 # The main files of the repository are:
 # - `utils.py`: defines key-functions used during the first stage of the algorithms to compute the optimal transport matrix *P*, kernel, mapping, the squared Euclidean distance and the best number of coclusters;
 # - `wtot.py`: it is the core code implementing the first stage of the algorithms;
-#  
-- `match_coclust.py`: it is the core code of the second stage of the algorithms. 
+# - `match_coclust.py`: it is the core code of the second stage of the algorithms. 
 
 # The folder `simulations` contains the codes used to generate data for the experimantal study presented in the paper. The folder `datasets` contains the miRNA and mRNA data obtained in the striatum and cortex of the HD model mice; and the results obtained by running the WTOT-matching and WTOT-coclust. The file `sample_A4.npz` is a synthetic dataset generated in configuration A4 of the simulation study (see Section 5 of the paper). 
 
