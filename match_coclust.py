@@ -1,6 +1,6 @@
-## This work is licensed under a <a
-## href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
-## Commons Attribution-NonCommercial-NoDerivs 4.0 International</a>.
+## This work is licensed under a Creative
+## Commons Attribution-NonCommercial-NoDerivs 4.0 International
+## (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
 import numpy as np
 from sklearn.cluster.bicluster import SpectralCoclustering
