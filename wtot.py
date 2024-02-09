@@ -1,3 +1,7 @@
+## This work is licensed under a Creative
+## Commons Attribution-NonCommercial-NoDerivs 4.0 International
+## (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+
 import numpy as np
 from numpy import random as rd
 from numpy.random import multivariate_normal as mvn
